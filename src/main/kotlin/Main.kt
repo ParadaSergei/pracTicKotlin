@@ -71,7 +71,7 @@ fun main() {
         // println(w)
     }
 
-    // #11 Доделать!!!!!!!!!!
+    // #11 
     var sum = 0
     for (row in 0 until 9 step 4){
         if (row %2 == 0 ) { }
