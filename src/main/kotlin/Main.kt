@@ -56,15 +56,6 @@ class ColoredLine(_color:String,_p1:Point,_p2:Point):Line(_p1,_p2){
     init{
         points=_points
     }
-    fun GetLenghtLine(pointsArray:Array<Point>):Array<Line>{
-        val lineArray:Array<Line> =
-            var i=1
-        while (i<=pointsArray.size){
-            val line:Line = Line(pointsArray[i-1],pointsArray[i])
-            lineArray.set(i-1,line)
-            i+=1
-        }
-        return lineArray
     }
 }*/
 
